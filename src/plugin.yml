@@ -1,6 +1,6 @@
 name: DungeonGenerator
 main: com.PoolNoodL.Main
-version: 0.0
+version: 1.0
 author: PoolNoodL
 api-version: 1.16
 commands:
@@ -8,3 +8,7 @@ commands:
     description: generates a custom dungeon.
     usage: /<command>
     aliases: [dungeon, generatedungeon]
+  lobby:
+    description: returns player to lobby
+    usage: /<command>
+    aliases: [ l, return ]
